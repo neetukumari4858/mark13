@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Varela+Round&display=swap');
+:root{
+    --primary-dark:#1F2937;
+    --primary-green:#6EE787;
+}
+body{
+    background-color:var(--primary-dark);
+    color: var(--primary-green);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 5rem;
+     
+}
+#show-btn{
+    display: block;
+    margin: auto;
+    background:transparent ;
+    color: var(--primary-green);
+    border-color: var(--primary-green);
+    border-width: medium;
+    padding: 0.5rem 0.6rem;
+    border-radius:0.3rem;
+    font-size: larger;
+    margin-top: 2rem;
+}
+input{
+    border-color: var(--primary-green);
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.5rem;
+    border-width: medium;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer1{
+    
+    margin-top: 150px;
+}
+.link{
+    text-decoration: none;
+    display: inline;
+   
+}
+h3{
+    margin-top: 2rem;
+}
